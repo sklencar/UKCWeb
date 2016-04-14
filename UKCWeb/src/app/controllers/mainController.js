@@ -38,7 +38,7 @@ scotchApp.config(function ($routeProvider) {
 
     .when('/login', {
       controller: 'LoginController',
-      templateUrl: '/UKCWeb/src/views/partials/login.html',
+      templateUrl: '/UKCWeb/src/login/index.html',
       controllerAs: 'vm'
     })
 
